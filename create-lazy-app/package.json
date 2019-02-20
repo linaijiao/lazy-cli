@@ -1,0 +1,32 @@
+{
+  "name": "create-lazy-app",
+  "version": "12.1.2",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "generator",
+    "!**/__test__/**"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "cpa": "bin/cli.js",
+    "create-lazy-app": "bin/cli.js"
+  },
+  "dependencies": {
+    "cac": "^6.3.12",
+    "sao": "^1.6.1",
+    "stringify-object": "^3.3.0"
+  },
+  "xo": false,
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/templates/"
+    ],
+    "testEnvironment": "node"
+  }
+}

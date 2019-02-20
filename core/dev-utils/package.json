@@ -1,0 +1,21 @@
+{
+  "name": "@lazy/dev-utils",
+  "version": "12.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "*.js",
+    "openChrome.applescript"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "address": "^1.0.3",
+    "cross-spawn": "^6.0.5",
+    "opn": "^5.4.0",
+    "react-error-overlay": "^4.0.1",
+    "sockjs-client": "^1.1.5",
+    "strip-ansi": "3.0.0"
+  },
+  "xo": false
+}

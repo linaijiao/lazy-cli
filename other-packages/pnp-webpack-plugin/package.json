@@ -1,0 +1,12 @@
+{
+  "name": "@lazy/pnp-webpack-plugin",
+  "version": "0.0.2",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
