@@ -58,7 +58,7 @@ exports.apply = api => {
     }
 
     const defaultHtmlOpts = {
-      title: api.pkg.data.productName || api.pkg.data.name || 'Lazy App',
+      title: api.pkg.data.productName || api.pkg.data.name || 'lazy App',
       template: getDefaultTemplate(),
       templateParameters: templateParametersGenerator({
         pkg: api.pkg.data,

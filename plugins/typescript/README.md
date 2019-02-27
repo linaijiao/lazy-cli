@@ -1,6 +1,6 @@
 # @lazy/plugin-typescript
 
-Official TypeScript plugin for Lazy.
+Official TypeScript plugin for lazy.
 
 ## Introduction
 

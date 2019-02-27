@@ -1,4 +1,4 @@
-# Create Lazy App
+# Create lazy App
 
 ```bash
 npm i -g create-lazy-app

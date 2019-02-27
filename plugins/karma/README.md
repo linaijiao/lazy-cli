@@ -26,7 +26,7 @@ module.exports = {
 }
 ```
 
-This plugin injected a new command to Lazy CLI: `lazy test:unit` which is a command running in Lazy's `test` mode.
+This plugin injected a new command to lazy CLI: `lazy test:unit` which is a command running in lazy's `test` mode.
 
 To run it easier, you can configure this in npm scripts:
 

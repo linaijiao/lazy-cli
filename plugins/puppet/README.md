@@ -10,7 +10,7 @@ Easy automatic (headless) browser testing, powered by [Puppeteer](https://github
 yarn add @lazy/plugin-puppet --dev
 ```
 
-<sup><small>*Require Lazy 12.0.2 and above.*</small></sup>
+<sup><small>*Require lazy 12.0.2 and above.*</small></sup>
 
 ## How to use
 
@@ -42,7 +42,7 @@ console.log(cowsay.say({ text }))
 puppet.exit()
 ```
 
-This command will inject`puppet` command to the Lazy CLI, you need to use this command in `--test` mode:
+This command will inject`puppet` command to the lazy CLI, you need to use this command in `--test` mode:
 
 ```bash
 ❯ lazy puppet --test cowsay.js

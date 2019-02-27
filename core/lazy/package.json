@@ -1,6 +1,6 @@
 {
-  "name": "lazy",
-  "version": "12.4.5",
+  "name": "@linaj/lazy",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "bin": "bin/cli.js",
   "description": "A zero-config bundler for JavaScript applications.",

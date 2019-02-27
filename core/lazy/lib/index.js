@@ -70,7 +70,7 @@ module.exports = class PoiCore {
 
     this.configLoader = createConfigLoader(this.cwd)
 
-    // For other tools that use Lazy under the hood
+    // For other tools that use lazy under the hood
     if (extendConfigLoader) {
       extendConfigLoader(this.configLoader)
     }
@@ -86,7 +86,7 @@ module.exports = class PoiCore {
 
     // Try to load config file
     if (externalConfig || this.parsedArgs.get('config') === false) {
-      logger.debug('Lazy config file was disabled')
+      logger.debug('lazy config file was disabled')
       this.config = externalConfig || {}
     } else {
       const configFiles =
@@ -98,9 +98,9 @@ module.exports = class PoiCore {
         packageKey: 'lazy'
       })
       if (configPath) {
-        logger.debug(`Using Lazy config file:`, configPath)
+        logger.debug(`Using lazy config file:`, configPath)
       } else {
-        logger.debug(`Not using any Lazy config file`)
+        logger.debug(`Not using any lazy config file`)
       }
       this.configPath = configPath
       this.config =

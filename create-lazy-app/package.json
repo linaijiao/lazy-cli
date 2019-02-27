@@ -1,6 +1,6 @@
 {
   "name": "create-lazy-app",
-  "version": "12.1.2",
+  "version": "0.1.1",
   "license": "MIT",
   "files": [
     "bin",

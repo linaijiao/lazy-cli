@@ -2,7 +2,7 @@
 import './assets/css/style.css';
 
 const title = document.createElement('h1');
-title.textContent = 'Hello Lazy!';
+title.textContent = 'Hello lazy';
 title.className = 'title';
 
 const tip = document.createElement('div');

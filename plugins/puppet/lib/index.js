@@ -22,7 +22,7 @@ exports.apply = api => {
       .action(async (patterns, options) => {
         if (api.mode !== 'test') {
           throw new api.PoiError({
-            message: `You must run Lazy in test mode`
+            message: `You must run lazy in test mode`
           })
         }
 

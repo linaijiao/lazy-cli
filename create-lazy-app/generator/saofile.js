@@ -137,14 +137,14 @@ module.exports = {
               )
             },
             devDependencies: {
-              lazy: '^12.4.2',
-              '@lazy/plugin-karma': when(unit === 'karma', '^13.0.0'),
+              '@linaj/lazy': '^0.1.1',
+              '@lazy/plugin-karma': when(unit === 'karma', '^0.1.0'),
               eslint: when(useEslint, '^5.9.0'),
               'eslint-config-xo': when(linterConfig === 'xo', '^0.25.0'),
-              '@lazy/plugin-eslint': when(useEslint, '^12.0.0'),
+              '@lazy/plugin-eslint': when(useEslint, '^0.1.0'),
               typescript: when(typeChecker === 'ts', '^3.2.1'),
-              '@lazy/plugin-typescript': when(typeChecker === 'ts', '^12.0.1'),
-              '@lazy/plugin-pwa': when(features.includes('pwa'), '^12.0.2'),
+              '@lazy/plugin-typescript': when(typeChecker === 'ts', '^0.1.0'),
+              '@lazy/plugin-pwa': when(features.includes('pwa'), '^0.1.0'),
               'register-service-worker': when(
                 features.includes('pwa'),
                 '^1.5.2'

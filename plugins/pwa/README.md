@@ -1,6 +1,6 @@
 # @lazy/plugin-pwa
 
-Build a progressive web app with Lazy and [Workbox](https://developers.google.com/web/tools/workbox/).
+Build a progressive web app with lazy and [Workbox](https://developers.google.com/web/tools/workbox/).
 
 ## Install
 
@@ -23,7 +23,7 @@ module.exports = {
 }
 ```
 
-Then run Lazy in production mode will generate a `/service-worker.js` file, you can register it in your app to make your website offline-ready.
+Then run lazy in production mode will generate a `/service-worker.js` file, you can register it in your app to make your website offline-ready.
 
 You can manually register the service worker following [the official guide](https://developers.google.com/web/fundamentals/primers/service-workers/registration), but there's also a module on npm which can be used to simplify the process:
 
@@ -66,7 +66,7 @@ Default value:
 ```js
 {
   name: 'PWA app',
-  themeColor: '#74d7fd', // The Lazy color
+  themeColor: '#74d7fd', // The lazy color
   msTileColor: '#000000',
   appleMobileWebAppCapable: 'no',
   appleMobileWebAppStatusBarStyle: 'default',

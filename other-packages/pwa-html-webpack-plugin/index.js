@@ -2,7 +2,7 @@ const ID = 'pwa-html-webpack'
 
 const defaults = {
   name: 'PWA app',
-  themeColor: '#74d7fd', // The Lazy color
+  themeColor: '#74d7fd', // The lazy color
   msTileColor: '#000000',
   appleMobileWebAppCapable: 'no',
   appleMobileWebAppStatusBarStyle: 'default',

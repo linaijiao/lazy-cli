@@ -5,9 +5,9 @@
 
 [![npm version](https://badgen.net/npm/v/lazy)](https://npm.im/lazy) [![build status](https://badgen.net/circleci/github/egoist/lazy/master)](https://circleci.com/gh/egoist/lazy/tree/master) [![npm downloads](https://badgen.net/npm/dm/lazy)](https://npm.im/lazy) [![lazy twitter](https://badgen.net/badge//@poi__js/1da1f2?icon=twitter)](https://twitter.com/poi__js)
 
-Lazy is a bundler built on the top of webpack, trying to make developing and bundling apps with webpack as easy as possible.
+lazy is a bundler built on the top of webpack, trying to make developing and bundling apps with webpack as easy as possible.
 
-**The Lazy project is supported by our [Backers](./BACKERS.md) and funded through [Patreon](https://patreon.com/egoist).**
+**The lazy project is supported by our [Backers](./BACKERS.md) and funded through [Patreon](https://patreon.com/egoist).**
 
 ## Features
 
@@ -36,7 +36,7 @@ When you’re ready to deploy to production, create a minified bundle with `npm 
 
 ### Get Started Manually
 
-Inside an empty project, run `yarn init` or `npm init` to create a `package.json` and install Lazy:
+Inside an empty project, run `yarn init` or `npm init` to create a `package.json` and install lazy:
 
 ```bash
 yarn init
@@ -47,7 +47,7 @@ Now all you need is to create an entry file, like if you're building a website, 
 
 ```js
 const el = document.createElement('div')
-el.textContent = 'Hello Lazy!'
+el.textContent = 'Hello lazy!'
 
 document.body.appendChild(el)
 ```
@@ -73,7 +73,7 @@ import styles from './style.module.css'
 
 const el = document.createElement('div')
 el.className = styles.title
-el.textContent = 'Hello Lazy!'
+el.textContent = 'Hello lazy!'
 
 document.body.appendChild(el)
 ```
@@ -97,11 +97,11 @@ All feedback and suggestions are welcome!
 
 ## Credits
 
-Lazy v12 won't exist without the inspirations from following projects:
+lazy v12 won't exist without the inspirations from following projects:
 
 - Webpack
 - Parcel 2
-- Lazy itself
+- lazy itself
 - Vue CLI 3
 - Create React App
 

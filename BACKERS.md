@@ -1,6 +1,6 @@
 # Sponsors & Backers
 
-Lazy is an MIT-licensed open source project. It's an independent project with its ongoing development made possible entirely thanks to the support by awesome backers and sponsors. If you'd like to join them, please consider:
+lazy is an MIT-licensed open source project. It's an independent project with its ongoing development made possible entirely thanks to the support by awesome backers and sponsors. If you'd like to join them, please consider:
 
 - [Become a backer or sponsor on Patreon](https://patreon.com/egoist)
 - [Donate via PayPal](https://paypal.me/egoistian)

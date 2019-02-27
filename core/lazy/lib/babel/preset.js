@@ -10,7 +10,7 @@ const validateBoolOption = (name, value, defaultValue) => {
   }
 
   if (typeof value !== 'boolean') {
-    throw new TypeError(`Lazy babel preset: '${name}' option must be a boolean.`)
+    throw new TypeError(`lazy babel preset: '${name}' option must be a boolean.`)
   }
 
   return value

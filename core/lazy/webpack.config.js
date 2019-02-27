@@ -1,5 +1,5 @@
-const Lazy = require('.')
+const lazy = require('.')
 
-const lazy = new Lazy()
+const lazy = new lazy()
 
 module.exports = lazy.createWebpackChain().toConfig()
