@@ -108,7 +108,7 @@ exports.apply = api => {
 
       config
         .plugin('inline-runtime-chunk')
-        .use(require('@lazy/dev-utils/InlineChunkHtmlPlugin'), [
+        .use(require('@linaj/dev-utils/InlineChunkHtmlPlugin'), [
           require('html-webpack-plugin'),
           [/runtime~.+[.]js/]
         ])

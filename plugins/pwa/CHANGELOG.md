@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [12.0.2](https://github.com/egoist/lazy/compare/@lazy/plugin-pwa@12.0.1...@lazy/plugin-pwa@12.0.2) (2019-01-09)
+## [12.0.2](https://github.com/egoist/lazy/compare/@linaj/plugin-pwa@12.0.1...@linaj/plugin-pwa@12.0.2) (2019-01-09)
 
 ### Bug Fixes
 

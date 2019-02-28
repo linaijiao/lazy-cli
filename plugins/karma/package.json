@@ -1,5 +1,5 @@
 {
-  "name": "@lazy/plugin-karma",
+  "name": "@linaj/plugin-karma",
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"

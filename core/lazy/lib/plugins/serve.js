@@ -31,7 +31,7 @@ exports.apply = api => {
             compiler.hooks.done.tap('print-serve-urls', stats => {
               if (stats.hasErrors() || stats.hasWarnings()) return
 
-              require('@lazy/dev-utils/printServeMessage')({
+              require('@linaj/dev-utils/printServeMessage')({
                 host,
                 port,
                 open,
@@ -64,7 +64,7 @@ exports.apply = api => {
         {
           proxy:
             typeof devServer.proxy === 'string'
-              ? require('@lazy/dev-utils/prepareProxy')(
+              ? require('@linaj/dev-utils/prepareProxy')(
                   devServer.proxy,
                   api.resolveCwd(api.config.publicFolder),
                   api.cli.options.debug
@@ -78,7 +78,7 @@ exports.apply = api => {
         api.hooks.invoke('beforeDevMiddlewares', server)
 
         server.use(
-          require('@lazy/dev-utils/launchEditorEndpoint'),
+          require('@linaj/dev-utils/launchEditorEndpoint'),
           require('launch-editor-middleware')(() =>
             console.log(
               `To specify an editor, sepcify the EDITOR env variable or ` +
@@ -86,7 +86,7 @@ exports.apply = api => {
             )
           )
         )
-        server.use(require('@lazy/dev-utils/skipServiceWorker')())
+        server.use(require('@linaj/dev-utils/skipServiceWorker')())
         existingBefore && existingBefore(server)
       }
 

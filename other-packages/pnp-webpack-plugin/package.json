@@ -1,5 +1,5 @@
 {
-  "name": "@lazy/pnp-webpack-plugin",
+  "name": "@linaj/pnp-webpack-plugin",
   "version": "0.0.2",
   "files": [
     "index.js"

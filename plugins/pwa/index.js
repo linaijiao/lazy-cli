@@ -56,6 +56,6 @@ exports.apply = (api, options = {}) => {
       : config.plugin('html').get('plugin')
     config
       .plugin('pwa-html')
-      .use(require('pwa-html-webpack-plugin'), [options, HtmlWebpackPlugin])
+      .use(require('@linaj/pwa-html-webpack-plugin'), [options, HtmlWebpackPlugin])
   })
 }

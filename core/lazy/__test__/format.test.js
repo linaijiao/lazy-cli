@@ -1,4 +1,4 @@
-const createProject = require('@lazy/test-utils/createProject')
+const createProject = require('@linaj/test-utils/createProject')
 
 test('cjs-format-cli', async () => {
   const project = await createProject({ name: 'cjs-format-cli' })

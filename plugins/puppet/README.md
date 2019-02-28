@@ -1,4 +1,4 @@
-# @lazy/plugin-puppet ![status beta](https://badgen.net/badge/status/beta/pink)
+# @linaj/plugin-puppet ![status beta](https://badgen.net/badge/status/beta/pink)
 
 Easy automatic (headless) browser testing, powered by [Puppeteer](https://github.com/GoogleChrome/puppeteer).
 
@@ -7,7 +7,7 @@ Easy automatic (headless) browser testing, powered by [Puppeteer](https://github
 ## Install
 
 ```bash
-yarn add @lazy/plugin-puppet --dev
+yarn add @linaj/plugin-puppet --dev
 ```
 
 <sup><small>*Require lazy 12.0.2 and above.*</small></sup>
@@ -20,7 +20,7 @@ Add this plugin in `lazy.config.js`:
 module.exports = {
   plugins: [
     {
-      resolve: '@lazy/plugin-puppet'
+      resolve: '@linaj/plugin-puppet'
     }
   ]
 }

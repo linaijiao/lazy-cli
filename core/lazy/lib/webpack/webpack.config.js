@@ -49,7 +49,7 @@ module.exports = (config, api) => {
   // https://www.smashingmagazine.com/2016/08/a-glimpse-into-the-future-with-react-native-for-web/
   config.resolve.alias
     .set('react-native', 'react-native-web')
-    .set('#webpack-hot-client$', require.resolve('@lazy/dev-utils/hotDevClient'))
+    .set('#webpack-hot-client$', require.resolve('@linaj/dev-utils/hotDevClient'))
 
   // output.sourceMap defaults to false in production mode
   config.devtool(
@@ -243,7 +243,7 @@ module.exports = (config, api) => {
       api.configLoader.resolve('node_modules') || api.resolveCwd('node_modules')
     config
       .plugin('watch-missing-node-modules')
-      .use(require('@lazy/dev-utils/WatchMissingNodeModulesPlugin'), [
+      .use(require('@linaj/dev-utils/WatchMissingNodeModulesPlugin'), [
         nodeModulesDir
       ])
   }

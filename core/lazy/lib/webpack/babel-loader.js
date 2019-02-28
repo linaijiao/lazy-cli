@@ -1,5 +1,5 @@
 const babelLoader = require('babel-loader')
-const logger = require('@lazy/logger')
+const logger = require('@linaj/logger')
 
 const macroCheck = new RegExp('[./]macro')
 

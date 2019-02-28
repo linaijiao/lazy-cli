@@ -93,7 +93,7 @@ Check out [this repository](https://github.com/lazy-bundler/examples) for more e
 All feedback and suggestions are welcome!
 
 - 💬 Join the community on [Spectrum](https://spectrum.chat/lazy).
-- 📣 Stay up to date on new features and announcements on [Twitter @lazy\_\_js](https://twitter.com/poi__js).
+- 📣 Stay up to date on new features and announcements on [Twitter @linaj\_\_js](https://twitter.com/poi__js).
 
 ## Credits
 

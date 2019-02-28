@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [12.1.0](https://github.com/egoist/lazy/compare/@lazy/dev-utils@12.0.3...@lazy/dev-utils@12.1.0) (2019-01-09)
+# [12.1.0](https://github.com/egoist/lazy/compare/@linaj/dev-utils@12.0.3...@linaj/dev-utils@12.1.0) (2019-01-09)
 
 ### Bug Fixes
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 - show memory usage ([75f1376](https://github.com/egoist/lazy/commit/75f1376))
 
-## [12.0.3](https://github.com/egoist/lazy/compare/@lazy/dev-utils@12.0.2...@lazy/dev-utils@12.0.3) (2018-12-21)
+## [12.0.3](https://github.com/egoist/lazy/compare/@linaj/dev-utils@12.0.2...@linaj/dev-utils@12.0.3) (2018-12-21)
 
 ### Bug Fixes
 

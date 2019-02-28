@@ -1,5 +1,5 @@
 {
-  "name": "@lazy/plugin-eslint",
+  "name": "@linaj/plugin-eslint",
   "version": "0.1.0",
   "main": "index.js",
   "files": [

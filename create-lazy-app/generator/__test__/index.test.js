@@ -16,6 +16,6 @@ test('defaults', async () => {
   const deps = [...Object.keys(pkg.devDependencies)]
   expect(deps).toContain('eslint')
   expect(deps).toContain('eslint-config-xo')
-  expect(deps).toContain('@lazy/plugin-eslint')
+  expect(deps).toContain('@linaj/plugin-eslint')
   expect(pkg.scripts.lint).toBe('eslint .')
 })

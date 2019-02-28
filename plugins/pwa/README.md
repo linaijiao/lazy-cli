@@ -1,11 +1,11 @@
-# @lazy/plugin-pwa
+# @linaj/plugin-pwa
 
 Build a progressive web app with lazy and [Workbox](https://developers.google.com/web/tools/workbox/).
 
 ## Install
 
 ```bash
-yarn add @lazy/plugin-pwa --dev
+yarn add @linaj/plugin-pwa --dev
 ```
 
 ## How to use
@@ -16,7 +16,7 @@ In your `lazy.config.js`:
 module.exports = {
   plugins: [
     {
-      resolve: '@lazy/plugin-pwa',
+      resolve: '@linaj/plugin-pwa',
       options: {}
     }
   ]

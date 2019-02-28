@@ -1,5 +1,5 @@
 {
-  "name": "@lazyplugin-puppet",
+  "name": "@linajplugin-puppet",
   "version": "0.1.3",
   "publishConfig": {
     "access": "public"

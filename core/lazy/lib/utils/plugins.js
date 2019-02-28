@@ -1,16 +1,16 @@
 const resolveFrom = require('resolve-from')
-const logger = require('@lazy/logger')
+const logger = require('@linaj/logger')
 const isLocalPath = require('./isLocalPath')
 const PoiError = require('./PoiError')
 
 const normalizePluginName = (name, cwd) => {
   if (isLocalPath(name)) return name
 
-  // @lazy/foo => @lazy/plugin-foo
+  // @linaj/foo => @linaj/plugin-foo
   // @my-org/hehe => @my-org/lazy-plugin-hehe
   if (/^@[^/]+\//.test(name)) {
-    return name.replace(/^@([^/]+)\/(lazy-)?(plugin-)?/, (_, m1) => {
-      return m1 === 'lazy' ? `@lazy/plugin-` : `@${m1}/lazy-plugin-`
+    return name.replace(/^@([^/]+)\/(linaj-)?(plugin-)?/, (_, m1) => {
+      return m1 === 'linaj' ? `@linaj/plugin-` : `@${m1}/lazy-plugin-`
     })
   }
 

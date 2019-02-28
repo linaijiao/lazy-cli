@@ -1,4 +1,4 @@
-# @lazy/plugin-vue-static
+# @linaj/plugin-vue-static
 
 You might be familar with building a SPA using Vue, Vue Router and  (webpack) already, here we're introducing a  plugin that pre-renders each page of your SPA using vue-server-renderer at build time.
 
@@ -7,7 +7,7 @@ You might be familar with building a SPA using Vue, Vue Router and  (webpack) al
 Install this plugin in a Vue project:
 
 ```bash
-yarn add @lazy/plugin-vue-static --dev
+yarn add @linaj/plugin-vue-static --dev
 ```
 
 You should also have `vue` and `vue-template-compiler` installed in your project.
@@ -19,7 +19,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     {
-      resolve: '@lazy/plugin-vue-static'
+      resolve: '@linaj/plugin-vue-static'
     }
   ]
 }
@@ -64,7 +64,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     {
-      resolve: '@lazy/plugin-vue-static',
+      resolve: '@linaj/plugin-vue-static',
       options: {
         staticRoutes: ['/user/egoist', '/user/cristiano']
       }

@@ -5,7 +5,7 @@ const resolveFrom = require('resolve-from')
 const cac = require('cac')
 const chalk = require('chalk')
 const merge = require('lodash.merge')
-const logger = require('@lazy/logger')
+const logger = require('@linaj/logger')
 const Hooks = require('./Hooks')
 const WebpackUtils = require('./WebpackUtils')
 const createConfigLoader = require('./utils/createConfigLoader')
@@ -379,7 +379,7 @@ module.exports = class PoiCore {
           opts
         )}\nvar config = ${config.toString()}\n\n`
         fs.writeFileSync(outFile, configString, 'utf8')
-        require('@lazy/dev-utils/open')(outFile, {
+        require('@linaj/dev-utils/open')(outFile, {
           wait: false
         })
       }

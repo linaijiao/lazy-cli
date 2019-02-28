@@ -1,4 +1,4 @@
-const logger = require('@lazy/logger')
+const logger = require('@linaj/logger')
 
 exports.name = 'builtin:config-css'
 

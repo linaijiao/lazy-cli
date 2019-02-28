@@ -12,7 +12,7 @@
     "core/*",
     "plugins/*",
     "other-packages/*",
-    "create-lazyapp"
+    "create-lazy-app"
   ],
   "devDependencies": {
     "commitizen": "^3.0.5",

@@ -1,5 +1,5 @@
 {
-  "name": "@lazy/dev-utils",
+  "name": "@linaj/dev-utils",
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"

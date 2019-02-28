@@ -1,5 +1,5 @@
 const fs = require('fs')
-const logger = require('@lazy/logger')
+const logger = require('@linaj/logger')
 
 module.exports = (mode, dotenvPath) => {
   const dotenvFiles = [

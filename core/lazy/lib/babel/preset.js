@@ -91,7 +91,7 @@ module.exports = (
       }
     ],
     [
-      require('babel-plugin-assets-named-imports'),
+      require('@lanaj/babel-plugin-assets-named-imports'),
       {
         loaderMap: merge(
           {

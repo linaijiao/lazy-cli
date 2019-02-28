@@ -137,14 +137,14 @@ module.exports = {
               )
             },
             devDependencies: {
-              '@linaj/lazy': '^0.1.1',
-              '@lazy/plugin-karma': when(unit === 'karma', '^0.1.0'),
+              '@linaj/lazy': '^0.1.3',
+              '@linaj/plugin-karma': when(unit === 'karma', '^0.1.0'),
               eslint: when(useEslint, '^5.9.0'),
               'eslint-config-xo': when(linterConfig === 'xo', '^0.25.0'),
-              '@lazy/plugin-eslint': when(useEslint, '^0.1.0'),
+              '@linaj/plugin-eslint': when(useEslint, '^0.1.0'),
               typescript: when(typeChecker === 'ts', '^3.2.1'),
-              '@lazy/plugin-typescript': when(typeChecker === 'ts', '^0.1.0'),
-              '@lazy/plugin-pwa': when(features.includes('pwa'), '^0.1.0'),
+              '@linaj/plugin-typescript': when(typeChecker === 'ts', '^0.1.0'),
+              '@linaj/plugin-pwa': when(features.includes('pwa'), '^0.1.0'),
               'register-service-worker': when(
                 features.includes('pwa'),
                 '^1.5.2'
@@ -168,22 +168,22 @@ module.exports = {
           }
           if (linterConfig && linterConfig !== 'tslint') {
             config.plugins.push({
-              resolve: '@lazy/plugin-eslint'
+              resolve: '@linaj/plugin-eslint'
             })
           }
           if (unit === 'karma') {
             config.plugins.push({
-              resolve: '@lazy/plugin-karma'
+              resolve: '@linaj/plugin-karma'
             })
           }
           if (typeChecker === 'ts') {
             config.plugins.push({
-              resolve: '@lazy/plugin-typescript'
+              resolve: '@linaj/plugin-typescript'
             })
           }
           if (features.includes('pwa')) {
             config.plugins.push({
-              resolve: '@lazy/plugin-pwa'
+              resolve: '@linaj/plugin-pwa'
             })
           }
           return `module.exports = ${s(config, {

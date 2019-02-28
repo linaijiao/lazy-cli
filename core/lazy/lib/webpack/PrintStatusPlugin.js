@@ -2,9 +2,9 @@ const path = require('path')
 const chalk = require('chalk')
 const textTable = require('text-table')
 const gzipSize = require('gzip-size')
-const formatWebpackMessages = require('@lazy/dev-utils/formatWebpackMessages')
-const prettyBytes = require('@lazy/dev-utils/prettyBytes')
-const logger = require('@lazy/logger')
+const formatWebpackMessages = require('@linaj/dev-utils/formatWebpackMessages')
+const prettyBytes = require('@linaj/dev-utils/prettyBytes')
+const logger = require('@linaj/logger')
 
 class PrintStatusPlugin {
   constructor(opts = {}) {
@@ -23,7 +23,7 @@ class PrintStatusPlugin {
 
     compiler.hooks.done.tapPromise('print-status', async stats => {
       if (this.opts.clearConsole !== false && process.env.NODE_ENV !== 'test') {
-        require('@lazy/dev-utils/clearConsole')()
+        require('@linaj/dev-utils/clearConsole')()
       }
       if (stats.hasErrors() || stats.hasWarnings()) {
         if (stats.hasErrors()) {

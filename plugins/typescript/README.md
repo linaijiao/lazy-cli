@@ -1,4 +1,4 @@
-# @lazy/plugin-typescript
+# @linaj/plugin-typescript
 
 Official TypeScript plugin for lazy.
 
@@ -9,7 +9,7 @@ This plugin use `ts-loader` to transpile TypeScript files, it also uses `fork-ts
 ## Install
 
 ```bash
-yarn add @lazy/plugin-typescript typescript --dev
+yarn add @linaj/plugin-typescript typescript --dev
 ```
 
 ## How to use
@@ -18,7 +18,7 @@ yarn add @lazy/plugin-typescript typescript --dev
 module.exports = {
   plugins: [
     {
-      resolve: '@lazy/plugin-typescript',
+      resolve: '@linaj/plugin-typescript',
       options: {}
     }
   ]

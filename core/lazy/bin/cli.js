@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 // eslint-disable-next-line import/no-unassigned-import
 require('v8-compile-cache')
-const lazy = require('..')
+const lazy = require('..');
+console.log(lazy)
 
 process.on('unhandledRejection', error => {
   console.error(error)
@@ -16,7 +17,7 @@ async function main() {
     require('../lib/utils/spinner').stop()
     if (error.lazy) {
       if (!error.dismiss) {
-        require('@lazy/logger').error(error.message)
+        require('@linaj/logger').error(error.message)
       }
     } else {
       console.error(error.stack)

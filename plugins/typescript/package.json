@@ -1,5 +1,5 @@
 {
-  "name": "@lazy/plugin-typescript",
+  "name": "@linaj/plugin-typescript",
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"

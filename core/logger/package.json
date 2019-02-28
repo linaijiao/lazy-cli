@@ -1,5 +1,5 @@
 {
-  "name": "@lazy/logger",
+  "name": "@linaj/logger",
   "version": "0.1.0",
   "files": [
     "index.js"

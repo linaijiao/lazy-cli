@@ -5,7 +5,7 @@ exports.when = api =>
 
 exports.apply = api => {
   api.hook('createWebpackChain', config => {
-    const { apply, moduleLoader } = require('@lazy/pnp-webpack-plugin')
+    const { apply, moduleLoader } = require('@linaj/pnp-webpack-plugin')
 
     config.resolve.plugin('pnp').use(
       class PnpWebpackPlugin {

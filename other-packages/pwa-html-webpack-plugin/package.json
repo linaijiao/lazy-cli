@@ -1,5 +1,5 @@
 {
-  "name": "pwa-html-webpack-plugin",
+  "name": "@linaj/pwa-html-webpack-plugin",
   "publishConfig": {
     "access": "public"
   },

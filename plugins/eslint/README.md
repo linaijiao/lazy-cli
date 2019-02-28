@@ -1,11 +1,11 @@
-# @lazy/plugin-eslint
+# @linaj/plugin-eslint
 
 Use ESLint to lint JavaScript.
 
 ## Install
 
 ```bash
-yarn add @lazy/plugin-eslint --dev
+yarn add @linaj/plugin-eslint --dev
 ```
 
 ## How to use
@@ -16,7 +16,7 @@ In your `lazy.config.js`:
 module.exports = {
   plugins: [
     {
-      resolve: '@lazy/plugin-eslint'
+      resolve: '@linaj/plugin-eslint'
     }
   ]
 }

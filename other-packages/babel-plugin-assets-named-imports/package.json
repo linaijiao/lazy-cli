@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-assets-named-imports",
+  "name": "@linaj/babel-plugin-assets-named-imports",
   "publishConfig": {
     "access": "public"
   },

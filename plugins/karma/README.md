@@ -1,4 +1,4 @@
-# @lazy/plugin-karma
+# @linaj/plugin-karma
 
 Automatic (headless) browser testing with [Karma](https://karma-runner.github.io/latest/index.html).
 
@@ -9,7 +9,7 @@ This plugin pre-configures [Karma](https://karma-runner.github.io/), [Jasmine](h
 ## Install
 
 ```bash
-yarn add @lazy/plugin-karma --dev
+yarn add @linaj/plugin-karma --dev
 ```
 
 ## How to use
@@ -20,7 +20,7 @@ In your `lazy.config.js`:
 module.exports = {
   plugins: [
     {
-      resolve: '@lazy/plugin-karma'
+      resolve: '@linaj/plugin-karma'
     }
   ]
 }

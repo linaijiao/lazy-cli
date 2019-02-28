@@ -1,5 +1,5 @@
 {
-  "name": "@lazy/plugin-vue-static",
+  "name": "@linaj/plugin-vue-static",
   "version": "0.1.0",
   "main": "lib/index.js",
   "files": [
